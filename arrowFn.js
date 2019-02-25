@@ -1,22 +1,3 @@
-// Default Parameters
-
-function fn (param = 'Default Value'){
-	console.log(param);
-}
-
-fn('My string passed in');
-fn();
-
-// Variable availability
-
-function va(param1=10, param2=param1){
-	console.log(param1 + param2);
-}
-
-va(2,5);
-va(50);
-va();
-
 // Arrow Functions () => {}
 const standartFnSub =function(num1, num2){
 	console.log(num1-num2);
@@ -58,8 +39,3 @@ const propsArrFn = arr.map((obj) => obj.prop);
 
 console.log(props);
 console.log(propsArrFn);
-
-
-
-
-
